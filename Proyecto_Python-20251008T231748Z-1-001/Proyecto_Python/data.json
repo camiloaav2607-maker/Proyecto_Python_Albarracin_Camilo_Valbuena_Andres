@@ -1,0 +1,95 @@
+{
+    "campers": [
+        {
+            "id": "1111",
+            "nombres": "camilo",
+            "apellidos": "albarracin",
+            "direccion": "campus",
+            "acudiente": "marce",
+            "telefono_celular": "0000",
+            "telefono_fijo": "9999",
+            "estado": "Inscrito",
+            "riesgo": "Bajo"
+        },
+        {
+            "id": "1098832577",
+            "nombres": "leonardo josue",
+            "apellidos": "vanegas celis",
+            "direccion": "cra 6 #6-65 santa ana",
+            "acudiente": "dolly celis",
+            "telefono_celular": "3025751035",
+            "telefono_fijo": "3026556487",
+            "estado": "Inscrito",
+            "riesgo": "Bajo"
+        }
+    ],
+    "trainers": [
+        {
+            "id": "2222",
+            "nombres": "juan",
+            "apellidos": "rueda",
+            "especialidad": "python",
+            "rutas": [
+                "Fundamentos"
+            ]
+        }
+    ],
+    "rutas": [
+        {
+            "nombre": "Fundamentos",
+            "modulos": [
+                "Lógica",
+                "Python Básico"
+            ],
+            "campers": []
+        },
+        {
+            "nombre": "Backend",
+            "modulos": [
+                "Flask",
+                "Bases de Datos"
+            ],
+            "campers": []
+        },
+        {
+            "nombre": "Frontend",
+            "modulos": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "campers": []
+        }
+    ],
+    "areas": [
+        {
+            "nombre": "Zona Norte",
+            "capacidad": 5,
+            "campers": []
+        },
+        {
+            "nombre": "Zona Sur",
+            "capacidad": 5,
+            "campers": []
+        }
+    ],
+    "matriculas": [],
+    "evaluaciones": [],
+    "usuarios": [
+        {
+            "usuario": "admin",
+            "clave": "1234",
+            "rol": "coordinador"
+        },
+        {
+            "usuario": "trainer1",
+            "clave": "abcd",
+            "rol": "trainer"
+        },
+        {
+            "usuario": "camper1",
+            "clave": "0000",
+            "rol": "camper"
+        }
+    ]
+}
